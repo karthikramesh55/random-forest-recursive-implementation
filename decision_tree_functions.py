@@ -7,10 +7,9 @@ import random
 from helper_functions import determine_type_of_feature
 
 
-# 1. Decision Tree helper functions 
-# (see "decision tree algorithm flow chart.png")
+# 1. Decision Tree helper functions
 
-# 1.1 Data pure?
+# 1.1 Is the data points pure?
 def check_purity(data):
     
     label_column = data[:, -1]
